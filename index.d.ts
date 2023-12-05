@@ -1,4 +1,4 @@
-declare module "customized-module" {
+declare module "custom-ts-component" {
   import React from "react";
 
   export interface CustomizedButtonProps {
