@@ -1,4 +1,4 @@
-declare module "custom-ts-button" {
+declare module "custom-ts-component" {
   import React from "react";
 
   export interface CustomizedButtonProps {
@@ -6,17 +6,11 @@ declare module "custom-ts-button" {
     buttonText?: string;
   }
 
-  const CustomizedButton: React.FC<CustomizedButtonProps>;
-  export { CustomizedButton };
-}
-
-declare module "custom-ts-cowsay" {
-  import React from "react";
-
   export interface CustomizedCowsayProps {
     content?: string;
   }
 
+  const CustomizedButton: React.FC<CustomizedButtonProps>;
   const CustomizedCowsay: React.FC<CustomizedCowsayProps>;
-  export { CustomizedCowsay };
+  export { CustomizedButton, CustomizedCowsay };
 }
