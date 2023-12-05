@@ -1,8 +1,14 @@
 import React from "react";
-import "./App.css";
+import { CustomizedButton } from ".";
+import { CustomizedCowsay } from ".";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <CustomizedButton></CustomizedButton>
+      <CustomizedCowsay></CustomizedCowsay>
+    </>
+  );
 }
 
 export default App;
